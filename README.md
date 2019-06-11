@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 In this project, we worked a framework called ngBoosted ( Orange version ) to realize a simple CRUD application managing contacts that are (for example at Orange)
 
 ## Concepts used 
+- Components Interaction
+- Data Binding
 - Template Driven Forms and Reactive Forms
 - Overview of the Validators Concept
 - Usage of Routes and Services
