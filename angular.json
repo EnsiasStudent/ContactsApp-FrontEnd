@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css", "src/../node_modules/boosted/dist/css/boosted.min.css"
             ],
             "scripts": []
           },

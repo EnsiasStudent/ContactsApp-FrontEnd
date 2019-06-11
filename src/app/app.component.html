@@ -1,6 +1,14 @@
-<!--This is our main view where it contains the Root Component-->
-<div>
-  <p>Nom : {{contact.nom}}</p>
-  <p>Prenom : {{contact.prenom}}</p>
-  <p>Email : {{contact.email}}</p>
+<!--
+<div class="container spacer">
+ <button class="btn btn-primary spacer" routerLink= "/about">About</button>
+ <button class="btn btn-primary spacer" routerLink= "/contacts">Contacts</button>
+ <button class="btn btn-primary spacer" routerLink= "/newcontact">Nouveau Contact</button>
 </div>
+<router-outlet></router-outlet>
+-->
+<o-navbar homeRoute="/start" breakpoint="sm" brandPath="assets/img/orange-logo.jpg" brandLabel="Back to home page">
+    <li o-nav-link route="/about">About</li>
+    <li o-nav-link route="/contacts">Contacts</li>
+    <li o-nav-link route="/newcontact">Nouveau Contact</li>
+</o-navbar>
+<router-outlet></router-outlet>
