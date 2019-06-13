@@ -12,7 +12,7 @@ In this project, we worked a framework called ngBoosted ( Orange version ) to re
 - Overview of the Validators Concept
 - Usage of Routes and Services
 - Communicate with a Restful Service ( SpringBoot BackEnd  ) in another [Repository](https://github.com/EnsiasStudent/ContactsApp-BackEnd.git)
-- How to work with a component framework like NgBoosted ?
+- Designing more our view with the NgBoosted framework
 
 ## Development server
 
